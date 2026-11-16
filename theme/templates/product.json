@@ -1,0 +1,38 @@
+{
+  "title": "Product",
+  "sections": [
+    {
+      "id": "stage",
+      "type": "product_stage",
+      "props": {
+        "product": "current",
+        "pairs": {
+          "from": "up_sells",
+          "limit": 3
+        },
+        "panel": "soft",
+        "photo_tile": "sand",
+        "show_attributes": "show",
+        "points": [],
+        "details": []
+      }
+    },
+    {
+      "id": "related",
+      "type": "product_band",
+      "props": {
+        "heading": "You may also like",
+        "link_label": "",
+        "products": {
+          "from": "related",
+          "limit": 4
+        },
+        "display": "grid",
+        "per_row": "4",
+        "heading_size": "medium",
+        "tone": "highlight",
+        "numbers": "no"
+      }
+    }
+  ]
+}

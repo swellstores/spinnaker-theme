@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "brand": {
+    "logo_width": 140
+  },
+  "tokens": {
+    "--uk-color-bg": "#fffefb",
+    "--uk-color-surface": "#ffffff",
+    "--uk-color-muted-bg": "#f6f1e8",
+    "--uk-color-tile": "#efe8dc",
+    "--uk-color-ink": "#1d1630",
+    "--uk-color-heading": "#1d1630",
+    "--uk-color-text-muted": "#4a4458",
+    "--uk-color-text-subtle": "#625b70",
+    "--uk-color-line": "#e4ddd1",
+    "--uk-color-line-strong": "#1d1630",
+    "--uk-color-outline": "#1d1630",
+    "--uk-color-accent": "#d63513",
+    "--uk-color-accent-strong": "#b52c0d",
+    "--uk-color-accent-soft": "#ffe0d4",
+    "--uk-color-on-accent": "#ffffff",
+    "--uk-color-on-accent-muted": "#ffe2d8",
+    "--uk-color-accent-text": "#c22f10",
+    "--uk-color-highlight": "#ffc93c",
+    "--uk-color-sale": "#c81e1e",
+    "--uk-color-success": "#1a7f37",
+    "--uk-font-body": "'Outfit', 'Outfit Fallback', Arial, sans-serif",
+    "--uk-font-heading": "'Syne', 'Syne Fallback', Arial, sans-serif",
+    "--uk-font-heading-weight": 800,
+    "--uk-radius-sm": 10,
+    "--uk-radius-md": 16,
+    "--uk-radius-lg": 24,
+    "--uk-radius-pill": 999,
+    "--uk-radius-image": 16,
+    "--uk-border-width": 2,
+    "--uk-shadow-raised": "none",
+    "--uk-type-scale": "display",
+    "--uk-width": "wide",
+    "--uk-eyebrow": "plain",
+    "--uk-art": "shapes",
+    "--uk-product-image": "square",
+    "--uk-motion": "subtle",
+    "--uk-heading-leading": 0.98,
+    "--uk-heading-tracking": -0.03,
+    "--uk-text-md": 17,
+    "--uk-text-sm": 15,
+    "--uk-button-height": 54,
+    "--uk-button-padding": 30
+  },
+  "fonts": [
+    {
+      "family": "Syne",
+      "source": "google",
+      "weights": [800],
+      "faces": [
+        {
+          "subset": "latin",
+          "style": "normal",
+          "weight": "400 800",
+          "url": "https://fonts.gstatic.com/s/syne/v24/8vIH7w4qzmVxm2BL9G78HEY.woff2",
+          "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+        }
+      ],
+      "fallback": { "local": "Arial", "size_adjust": 98.5, "ascent": 93.9, "descent": 27.9, "line_gap": 0 }
+    },
+    {
+      "family": "Outfit",
+      "source": "google",
+      "weights": [400, 600],
+      "faces": [
+        {
+          "subset": "latin",
+          "style": "normal",
+          "weight": "100 900",
+          "url": "https://fonts.gstatic.com/s/outfit/v15/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2",
+          "range": "U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD"
+        }
+      ],
+      "fallback": { "local": "Arial", "size_adjust": 99.1, "ascent": 100.9, "descent": 26.2, "line_gap": 0 }
+    }
+  ]
+}

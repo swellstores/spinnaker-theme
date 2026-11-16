@@ -1,0 +1,40 @@
+{
+  "fields": [
+    {
+      "type": "field_group",
+      "label": "Header",
+      "fields": [
+        {
+          "id": "sticky_header", "label": "Keep the header in view while scrolling", "type": "toggle", "default": true
+        }
+      ]
+    },
+    {
+      "type": "field_group",
+      "label": "Product cards",
+      "description": "Every product band: home, categories, search and the rows under a product.",
+      "fields": [
+        {
+          "id": "card_quick_add", "label": "Quick add", "type": "toggle", "default": true,
+          "description": "A product with nothing to choose adds in one click; any other links to its page with Choose options."
+        },
+        {
+          "id": "card_photo_swap", "label": "Swap to the second photo on hover", "type": "toggle", "default": true
+        },
+        {
+          "id": "card_swatches", "label": "Swatch dots per card", "type": "number", "default": 4, "min": 0, "max": 8,
+          "description": "At most this many of the first color option's swatches; 0 shows none."
+        }
+      ]
+    },
+    {
+      "type": "field_group",
+      "label": "Buy box",
+      "fields": [
+        {
+          "id": "buy_quantity", "label": "Let shoppers pick a quantity", "type": "toggle", "default": true
+        }
+      ]
+    }
+  ]
+}

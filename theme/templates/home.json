@@ -1,0 +1,118 @@
+{
+  "title": "Home",
+  "sections": [
+    {
+      "id": "hero",
+      "type": "color_hero",
+      "props": {
+        "title": "Discover our latest products",
+        "text": "Shop new arrivals and best sellers.",
+        "cta_label": "Shop all",
+        "cta_href": "/products",
+        "secondary_label": "New arrivals",
+        "secondary_href": "/products?sort=newest",
+        "layout": "side by side",
+        "photo_side": "right",
+        "title_size": "huge",
+        "tone": "accent",
+        "photo_tone": "highlight",
+        "height": "tall"
+      }
+    },
+    {
+      "id": "categories",
+      "type": "category_tiles",
+      "props": {
+        "heading": "Pick a category",
+        "link_label": "See them all",
+        "link_href": "/categories",
+        "collections": {
+          "from": "top",
+          "limit": 4
+        },
+        "colors": "mixed",
+        "photo": "circle",
+        "shape": "tall"
+      }
+    },
+    {
+      "id": "best-sellers",
+      "type": "product_band",
+      "props": {
+        "heading": "Most loved",
+        "link_label": "Shop everything",
+        "link_href": "/products",
+        "products": {
+          "from": "all",
+          "sort": "best_selling",
+          "limit": 8
+        },
+        "display": "grid",
+        "per_row": "4",
+        "heading_size": "large",
+        "tone": "page",
+        "numbers": "yes"
+      }
+    },
+    {
+      "id": "statement",
+      "type": "statement_block",
+      "props": {
+        "line_one": "Shop the",
+        "line_two": "latest arrivals.",
+        "sticker": "New in",
+        "link_label": "Shop now",
+        "link_href": "/products",
+        "size": "huge",
+        "align": "left",
+        "tone": "dark",
+        "second": "highlight"
+      }
+    },
+    {
+      "id": "new-arrivals",
+      "type": "product_band",
+      "props": {
+        "heading": "Fresh in",
+        "link_label": "See what's new",
+        "link_href": "/products?sort=newest",
+        "products": {
+          "from": "all",
+          "sort": "newest",
+          "limit": 8
+        },
+        "display": "rail",
+        "per_row": "4",
+        "heading_size": "large",
+        "tone": "soft",
+        "numbers": "no"
+      }
+    },
+    {
+      "id": "story",
+      "type": "color_split",
+      "props": {
+        "heading": "Our story",
+        "text": "Learn more about who we are and what we make.",
+        "link_label": "Explore the shop",
+        "link_href": "/products",
+        "photo_side": "left",
+        "tone": "highlight",
+        "photo_tone": "accent"
+      }
+    },
+    {
+      "id": "features",
+      "type": "feature_blocks",
+      "props": {
+        "items": [
+          { "title": "Made to be used", "text": "Everyday things, chosen to work hard and last." },
+          { "title": "Packed with care", "text": "Every order is checked and packed by hand." },
+          { "title": "Here to help", "text": "Questions about an order? Write to us any time." }
+        ],
+        "colors": "mixed",
+        "numbers": "show"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2600 @@
+{
+  "format": 1,
+  "theme": "theme-bold",
+  "store": {
+    "name": "Pepperkite",
+    "tagline": "Big crunch, bright flavor, a little kick.",
+    "currency": "USD",
+    "locale": "en-US",
+    "email": "hello@pepperkite.example",
+    "phone": "(614) 555-0137",
+    "address": {
+      "address1": "450 Marigold Avenue, Unit 3",
+      "city": "Columbus",
+      "state": "OH",
+      "zip": "43206",
+      "country": "US"
+    },
+    "ship_to": [
+      "US",
+      "CA"
+    ],
+    "shipping": {
+      "name": "Standard shipping",
+      "price": 6,
+      "free_over": 45
+    },
+    "voice": "Bright, cheeky and upbeat, like the friend who always brings the best snacks to the party. Short, punchy sentences; concrete flavor words (tangy, smoky, puckery, a slow cayenne glow); at most one kite or crunch pun per paragraph. Loud about flavor, plain and precise about ingredients, allergens and heat. Confident and warm, never snarky or shouty, no ALL CAPS.",
+    "story": "Pepperkite began in 2021 when two friends, Rosie and Jun, sold hot honey popcorn from a folding table at a windy kite festival in Columbus, Ohio, and were sold out by noon. They kept the name the festival crowd gave the stand. Today a small team seasons everything twice (once warm, once right before packing) in a Columbus kitchen and packs fresh batches every Tuesday. Range: popcorn, crunchy chickpeas and nuts, chips and crackers, candy and chocolate, hot sauces and shakers, snack boxes, a monthly Snack Club and a little merch.",
+    "policies": {
+      "refund": "<p>Snacks should make you happy. If a flavor is not your thing, tell us within 30 days of delivery at hello@pepperkite.example and we will send a different flavor or refund it to your original payment method, even if the bag is open (we really do want to know what missed).</p><p>Anything that arrives crushed, stale or melted gets replaced free; a photo helps. Merch can be returned unused within 30 days for a full refund. Snack Club boxes that have already shipped cannot be returned, but you can skip, pause or cancel before the 1st of any month from your account.</p><p>Refunds are issued within 5 business days of approval.</p>",
+      "shipping": "<p>We pack orders Monday to Thursday in Columbus, Ohio, and most leave within 2 business days.</p><ul><li>Standard shipping to the US and Canada: a flat $6, free on orders over $45.</li><li>US orders usually arrive in 3–5 business days; Canadian orders in 5–10.</li><li>Canadian orders may owe import duties or taxes on delivery.</li><li>Chocolate and chocolate-drizzled snacks ship with an ice pack from May to September.</li></ul><p>Snack Club boxes pack on the first Tuesday of each month and always ship free.</p>",
+      "privacy": "<p>Pepperkite collects only what we need to send your snacks and, if you ask, our news: your name, email, shipping address, order history and any allergy notes you share. Payments are handled by our payment provider; we never see or store your full card number.</p><p>We never sell or rent your information. You can unsubscribe from our emails with one click, and ask us to see, correct or delete what we hold by writing to hello@pepperkite.example.</p>",
+      "terms": "<p>These terms cover purchases from the Pepperkite online shop. Prices are in US dollars; taxes and any duties are calculated at checkout or on delivery. Product photos are styled, so your popcorn may land a little differently.</p><p>Snack Club subscriptions renew on their schedule until you skip, pause or cancel them from your account before the 1st of the month. Allergen information is listed on every product; if you have a severe allergy, please read it carefully, since our kitchen handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><p>Questions? Write to hello@pepperkite.example or call (614) 555-0137, Monday to Friday, 9am to 5pm Eastern.</p>"
+    }
+  },
+  "art_direction": "Bold, bright, high-energy snack photography for a playful snack brand. Hard direct flash with crisp, short, hard-edged shadows and a glossy pop on every surface. Saturated solid-color seamless paper backdrops in the brand palette: vermilion red-orange (#d63513), sunshine yellow (#ffc93c), blush pink (#ffe0d4), warm sand (#f6f1e8) and deep inky purple-navy (#1d1630); flavor colors (pickle green, lime, sky blue) only as small accents. Playful, graphic compositions: tidy overhead flat-lays, snacks floating and tumbling mid-air, one pouch, jar, bottle or box standing hero-center with pieces spilling around it. Packaging is plain: matte pouches, bags, boxes, jars, wrappers and bottles in solid colors, blank or with simple abstract shapes only (circles, stripes, a kite-shaped diamond). Real-photo style, crisp focus, 50 mm lens look, the product fully in frame with room around it so square and round crops keep it. Mood: cheeky, joyful, loud and appetizing. Avoid: any text, letters, numbers, logos, brand marks, nutrition panels or labels with writing; faces or people; muted, pastel-washed or dark moody looks; wooden tables and rustic props; clutter; watermarks; vignettes.",
+  "attributes": [
+    {
+      "id": "flavor_profile",
+      "name": "Flavor profile",
+      "type": "checkbox",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Sweet",
+        "Savory",
+        "Spicy",
+        "Sour",
+        "Tangy",
+        "Smoky",
+        "Cheesy"
+      ]
+    },
+    {
+      "id": "heat_level",
+      "name": "Heat level",
+      "type": "select",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "No heat",
+        "Mild",
+        "Medium",
+        "Hot",
+        "Extra hot"
+      ]
+    },
+    {
+      "id": "dietary",
+      "name": "Dietary",
+      "type": "checkbox",
+      "visible": true,
+      "filterable": true,
+      "values": [
+        "Vegan",
+        "Vegetarian",
+        "Gluten-free",
+        "Dairy-free",
+        "Peanut-free"
+      ]
+    },
+    {
+      "id": "net_weight",
+      "name": "Net weight",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "allergens",
+      "name": "Allergens",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "per_serving",
+      "name": "Per serving",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    },
+    {
+      "id": "material",
+      "name": "Material",
+      "type": "text",
+      "visible": true,
+      "filterable": false,
+      "values": []
+    }
+  ],
+  "categories": [
+    {
+      "slug": "popcorn",
+      "name": "Popcorn",
+      "description": "Big mushroom kernels, seasoned twice and loud from the first handful: hot honey, dill pickle, white cheddar jalapeño and a birthday cake kettle corn.",
+      "parent": null,
+      "image": {
+        "prompt": "A huge joyful burst of fluffy popcorn exploding upward from the center of the frame against a solid vermilion backdrop, a few honey-glazed and cheese-dusted pieces among the white, every kernel frozen mid-air by hard flash. Composition centered, so a round crop keeps the burst.",
+        "alt": "A burst of popcorn exploding upward on vermilion",
+        "size": "1024x1024"
+      }
+    },
+    {
+      "slug": "chickpeas-nuts",
+      "name": "Chickpeas & nuts",
+      "description": "Roasted until they shatter: crunchy chickpeas in four flavors, chili lime peanuts, maple chipotle cashews and everything bagel almonds.",
+      "parent": null,
+      "image": {
+        "from_product": "crunchy-chickpeas"
+      }
+    },
+    {
+      "slug": "chips-crackers",
+      "name": "Chips & crackers",
+      "description": "Thick-cut kettle chips, plantain chips, cheddar cornbread crackers and mustard pretzel bites. Built for dipping, better straight from the bag.",
+      "parent": null,
+      "image": {
+        "from_product": "firecracker-kettle-chips"
+      }
+    },
+    {
+      "slug": "candy-chocolate",
+      "name": "Sweets",
+      "description": "Sour Kite Tails, chili mango chews and chunky chocolate bars with pretzels or popcorn baked right in.",
+      "parent": null,
+      "image": {
+        "from_product": "sour-kite-tails"
+      }
+    },
+    {
+      "slug": "hot-sauce-shakers",
+      "name": "Heat",
+      "description": "Three hot sauces from mild to Afterburner, a jar of crunchy chili crisp and our popcorn seasonings in shakers.",
+      "parent": null,
+      "image": {
+        "from_product": "tailwind-hot-sauce"
+      }
+    },
+    {
+      "slug": "snack-boxes",
+      "name": "Snack boxes",
+      "description": "The monthly Snack Club, the Party Box and the Heat Seeker Box: the easiest gifts you will ever give.",
+      "parent": null,
+      "image": {
+        "from_product": "snack-club"
+      }
+    },
+    {
+      "slug": "merch",
+      "name": "Merch",
+      "description": "A canvas tote and a chunky mug, both as loud as the snacks.",
+      "parent": null,
+      "image": {
+        "from_product": "big-crunch-tote"
+      }
+    }
+  ],
+  "products": [
+    {
+      "slug": "hot-honey-popcorn",
+      "name": "Hot Honey Popcorn",
+      "description_html": "<p>Our first flavor and still the one people text us about. Sweet wildflower honey, a slow cayenne burn and a pinch of flaky salt on big, crunchy mushroom kernels.</p><h3>Flavor</h3><p>Honey-sweet up front, a warm cayenne glow in the middle, salty at the finish. Mild heat that builds just enough to make you reach for the next handful.</p><h3>Ingredients</h3><p>Popcorn, cane sugar, wildflower honey, sunflower oil, sea salt, cayenne pepper, smoked paprika.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 140 calories per 1 oz serving; 5 servings per bag.</li><li>Gluten-free. Contains honey, so not vegan.</li><li>Best within 3 months; reseal the bag to keep the crunch.</li></ul>",
+      "price": 6.5,
+      "sale_price": null,
+      "categories": [
+        "popcorn"
+      ],
+      "tags": [
+        "bestseller"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet",
+          "Spicy"
+        ],
+        "heat_level": "Mild",
+        "dietary": [
+          "Gluten-free",
+          "Vegetarian"
+        ],
+        "net_weight": "5 oz (142 g) per bag",
+        "allergens": "None of the top 9",
+        "per_serving": "140 calories per 1 oz"
+      },
+      "options": [
+        {
+          "name": "Pack size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Single bag (5 oz)",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "3-pack",
+              "price": 11.5,
+              "color": null
+            },
+            {
+              "name": "6-pack",
+              "price": 27.5,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 160,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "dill-pickle-popcorn",
+        "popcorn-shaker-trio"
+      ],
+      "cross_sells": [
+        {
+          "product": "tailwind-hot-sauce",
+          "discount_percent": null
+        },
+        {
+          "product": "party-box",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Hot Honey Popcorn: a plain matte vermilion stand-up snack pouch, blank apart from a simple yellow diamond shape, standing center on a sunshine-yellow seamless backdrop, glossy honey-glazed popcorn spilling from its open top into a neat pile, a few pieces bouncing mid-air, hard flash with crisp short shadows.",
+          "alt": "A vermilion pouch of hot honey popcorn spilling onto a yellow backdrop",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "Close-up of glossy honey-glazed popcorn pieces flying mid-air against a solid vermilion backdrop, a thin ribbon of golden honey dripping through the frame, hard flash freezing every piece, red cayenne flecks visible.",
+          "alt": "Honey-glazed popcorn flying mid-air on vermilion",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-POP-HH"
+    },
+    {
+      "slug": "dill-pickle-popcorn",
+      "name": "Dill Pickle Popcorn",
+      "description_html": "<p>For people who drink the pickle jar. Tangy vinegar, fresh dill and garlic, tossed while the popcorn is still warm so it sticks to every ridge.</p><h3>Flavor</h3><p>Puckery, garlicky and green. Sour first, then dill, then a savory finish that makes the bag mysteriously empty.</p><h3>Ingredients</h3><p>Popcorn, sunflower oil, distilled vinegar powder, sea salt, dried dill, garlic powder, onion powder, citric acid.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 130 calories per 1 oz serving; 5 servings per bag.</li><li>Vegan and gluten-free.</li><li>Pairs dangerously well with a cold lemonade.</li></ul>",
+      "price": 6.5,
+      "sale_price": null,
+      "categories": [
+        "popcorn"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Sour",
+          "Tangy",
+          "Savory"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 oz (142 g) per bag",
+        "allergens": "None of the top 9",
+        "per_serving": "130 calories per 1 oz"
+      },
+      "options": [
+        {
+          "name": "Pack size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Single bag (5 oz)",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "3-pack",
+              "price": 11.5,
+              "color": null
+            },
+            {
+              "name": "6-pack",
+              "price": 27.5,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 120,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "hot-honey-popcorn",
+        "crunchy-chickpeas"
+      ],
+      "cross_sells": [
+        {
+          "product": "green-light-hot-sauce",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Dill Pickle Popcorn: a plain matte pickle-green stand-up snack pouch with an abstract white circle, standing on a blush-pink seamless backdrop, fluffy popcorn dusted with green dill flecks piled in front, two whole bright green pickle spears leaning on the pile, hard flash.",
+          "alt": "A green pouch of dill pickle popcorn with pickle spears on blush",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-POP-DP"
+    },
+    {
+      "slug": "birthday-cake-popcorn",
+      "name": "Birthday Cake Kettle Corn",
+      "description_html": "<p>Kettle corn wearing a party hat: a crisp vanilla sugar shell, a white chocolate drizzle and a shower of rainbow sprinkles. On sale while we make room for the winter batch.</p><h3>Flavor</h3><p>Vanilla frosting, buttery kettle crunch and a little salt to keep it from getting silly. Tastes like the best bite of the cake.</p><h3>Ingredients</h3><p>Popcorn, cane sugar, white chocolate (sugar, cocoa butter, milk powder, soy lecithin, vanilla), coconut oil, rainbow sprinkles (sugar, corn starch, plant-based colors), sea salt, vanilla.</p><h3>Allergens</h3><p>Contains: milk, soy. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 150 calories per 1 oz serving; 5 servings per bag.</li><li>Gluten-free. Sprinkles colored with fruit and vegetable extracts.</li><li>Ships with an ice pack from May to September.</li></ul>",
+      "price": 7,
+      "sale_price": 5.25,
+      "categories": [
+        "popcorn",
+        "candy-chocolate"
+      ],
+      "tags": [
+        "sale"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Gluten-free",
+          "Vegetarian"
+        ],
+        "net_weight": "5 oz (142 g) per bag",
+        "allergens": "Milk, soy",
+        "per_serving": "150 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 48,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "kettle-corn-chocolate-bar",
+        "sour-kite-tails"
+      ],
+      "cross_sells": [
+        {
+          "product": "kite-mug",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Birthday Cake Kettle Corn: a plain matte blush-pink stand-up snack pouch with an abstract confetti dot pattern, on a sunshine-yellow seamless backdrop, white-chocolate-drizzled kettle corn covered in rainbow sprinkles tumbling out, a few sprinkles frozen mid-air, hard flash.",
+          "alt": "A pink pouch of sprinkle-covered kettle corn on yellow",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-POP-BC"
+    },
+    {
+      "slug": "white-cheddar-jalapeno-popcorn",
+      "name": "White Cheddar Jalapeño Popcorn",
+      "description_html": "<p>Real aged white cheddar, so much of it that your fingers will need a napkin, with dried jalapeño for a green, grassy kick.</p><h3>Flavor</h3><p>Sharp and cheesy first, then a medium jalapeño heat that lingers. Like the best nacho, without the plate.</p><h3>Ingredients</h3><p>Popcorn, sunflower oil, white cheddar cheese powder (cheddar cheese, whey, salt, cultures, enzymes), buttermilk powder, jalapeño powder, sea salt, garlic powder.</p><h3>Allergens</h3><p>Contains: milk. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 150 calories per 1 oz serving; 5 servings per bag.</li><li>Gluten-free and vegetarian (microbial enzymes).</li><li>Best within 3 months of packing.</li></ul>",
+      "price": 6.5,
+      "sale_price": null,
+      "categories": [
+        "popcorn"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Cheesy",
+          "Spicy",
+          "Savory"
+        ],
+        "heat_level": "Medium",
+        "dietary": [
+          "Gluten-free",
+          "Vegetarian",
+          "Peanut-free"
+        ],
+        "net_weight": "5 oz (142 g) per bag",
+        "allergens": "Milk",
+        "per_serving": "150 calories per 1 oz"
+      },
+      "options": [
+        {
+          "name": "Pack size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Single bag (5 oz)",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "3-pack",
+              "price": 11.5,
+              "color": null
+            },
+            {
+              "name": "6-pack",
+              "price": 27.5,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 90,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "hot-honey-popcorn",
+        "cheddar-cornbread-crackers"
+      ],
+      "cross_sells": [
+        {
+          "product": "afterburner-hot-sauce",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "White Cheddar Jalapeño Popcorn: a plain matte deep ink-navy stand-up snack pouch with an abstract yellow stripe, on a vermilion seamless backdrop, cheese-dusted popcorn piled in front with a few thin green jalapeño slices, hard flash with a crisp shadow.",
+          "alt": "A navy pouch of white cheddar popcorn with jalapeño slices on vermilion",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-POP-WC"
+    },
+    {
+      "slug": "smoky-maple-popcorn",
+      "name": "Smoky Maple Popcorn",
+      "description_html": "<p>Our fall-only batch: Ohio maple syrup cooked into a thin, crackly shell with hickory smoked salt. It sold through faster than we could pop it. Back next October.</p><h3>Flavor</h3><p>Campfire smoke, dark maple and a salty snap. Sweet without being sticky.</p><h3>Ingredients</h3><p>Popcorn, pure maple syrup, cane sugar, coconut oil, hickory smoked sea salt.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 140 calories per 1 oz serving; 5 servings per bag.</li><li>Vegan and gluten-free.</li><li>Join the Snack Club and you will hear first when it returns.</li></ul>",
+      "price": 7,
+      "sale_price": null,
+      "categories": [
+        "popcorn"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet",
+          "Smoky"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 oz (142 g) per bag",
+        "allergens": "None of the top 9",
+        "per_serving": "140 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 0,
+        "status": "out_of_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "hot-honey-popcorn",
+        "maple-chipotle-cashews"
+      ],
+      "cross_sells": [],
+      "images": [
+        {
+          "prompt": "Smoky Maple Popcorn: a plain matte warm-sand stand-up snack pouch with an abstract vermilion diamond, on a deep ink-navy seamless backdrop, amber maple-glazed popcorn in a neat pile in front, a small wisp of smoke curling up, hard flash.",
+          "alt": "A sand pouch of maple-glazed popcorn on a deep navy backdrop",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-POP-SM"
+    },
+    {
+      "slug": "crunchy-chickpeas",
+      "name": "Crunchy Chickpeas",
+      "description_html": "<p>Chickpeas roasted low and slow until they shatter, then seasoned twice. Ten grams of plant protein per bag and a crunch you can hear across the room.</p><h3>Flavor</h3><p>Pick your mood: sharp Salt & Vinegar, zesty Chili Lime, herby Garden Ranch or warm Cinnamon Crunch.</p><h3>Ingredients</h3><p>Chickpeas, sunflower oil, sea salt, plus the seasoning for your flavor (full list on each bag).</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 120 calories and 6 g protein per 1 oz serving.</li><li>Vegan and gluten-free; Garden Ranch is dairy-free ranch.</li><li>Cinnamon Crunch 4-packs are sold out until the next batch.</li></ul>",
+      "price": 5.5,
+      "sale_price": null,
+      "categories": [
+        "chickpeas-nuts"
+      ],
+      "tags": [
+        "bestseller"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Savory",
+          "Tangy",
+          "Spicy",
+          "Sweet"
+        ],
+        "heat_level": "Mild",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "4 oz (113 g) per bag",
+        "allergens": "None of the top 9",
+        "per_serving": "120 calories per 1 oz"
+      },
+      "options": [
+        {
+          "name": "Flavor",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Salt & Vinegar",
+              "price": 0,
+              "color": "#7cc6ee"
+            },
+            {
+              "name": "Chili Lime",
+              "price": 0,
+              "color": "#7ac143"
+            },
+            {
+              "name": "Garden Ranch",
+              "price": 0,
+              "color": "#f2ead3"
+            },
+            {
+              "name": "Cinnamon Crunch",
+              "price": 0,
+              "color": "#b8642d"
+            }
+          ]
+        },
+        {
+          "name": "Pack size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "4 oz bag",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "4-pack",
+              "price": 14.5,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 160,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "chili-lime-peanuts",
+        "everything-almonds"
+      ],
+      "cross_sells": [
+        {
+          "product": "dill-pickle-popcorn",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Crunchy Chickpeas: four plain matte stand-up snack pouches in sky blue, lime green, cream and cinnamon brown standing in a row on a sunshine-yellow seamless backdrop, golden roasted chickpeas scattered in a neat line in front, hard flash with crisp shadows.",
+          "alt": "Four pouches of crunchy chickpeas in a row on yellow",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "Golden roasted crunchy chickpeas bursting upward mid-air from a small vermilion bowl against a blush-pink backdrop, seasoning dust in the air, hard flash freezing the motion.",
+          "alt": "Roasted chickpeas bursting from a vermilion bowl",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CHK",
+      "variant_stock": [
+        {
+          "values": {
+            "Flavor": "Cinnamon Crunch",
+            "Pack size": "4-pack"
+          },
+          "level": 0
+        }
+      ]
+    },
+    {
+      "slug": "chili-lime-peanuts",
+      "name": "Chili Lime Peanuts",
+      "description_html": "<p>Big Virginia peanuts, blistered in the oven and hit with lime zest and three kinds of chili. The snack that makes a cold drink taste colder.</p><h3>Flavor</h3><p>Bright lime, a medium chili burn and deep roasted peanut. Salty, sour and a little addictive.</p><h3>Ingredients</h3><p>Peanuts, sunflower oil, sea salt, lime juice powder, guajillo chili, chipotle chili, cayenne, citric acid.</p><h3>Allergens</h3><p>Contains: peanuts. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 170 calories and 7 g protein per 1 oz serving.</li><li>Vegan and gluten-free.</li><li>6 oz resealable pouch.</li></ul>",
+      "price": 7,
+      "sale_price": null,
+      "categories": [
+        "chickpeas-nuts"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Spicy",
+          "Tangy",
+          "Savory"
+        ],
+        "heat_level": "Medium",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free"
+        ],
+        "net_weight": "6 oz (170 g)",
+        "allergens": "Peanuts",
+        "per_serving": "170 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 75,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "maple-chipotle-cashews",
+        "crunchy-chickpeas"
+      ],
+      "cross_sells": [
+        {
+          "product": "green-light-hot-sauce",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Chili Lime Peanuts: a plain matte lime-green stand-up pouch with an abstract vermilion circle, on a vermilion seamless backdrop, chili-dusted red-orange peanuts piled in front with two halved limes, hard flash.",
+          "alt": "A lime-green pouch of chili lime peanuts with limes on vermilion",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-NUT-CL"
+    },
+    {
+      "slug": "maple-chipotle-cashews",
+      "name": "Maple Chipotle Cashews",
+      "description_html": "<p>Whole cashews glazed in maple syrup, then rolled in smoky chipotle and sea salt. Fancy enough for a party bowl, gone before the party starts.</p><h3>Flavor</h3><p>Sweet maple shell, buttery cashew, a smoky chipotle warmth that never gets loud.</p><h3>Ingredients</h3><p>Cashews, pure maple syrup, cane sugar, sea salt, chipotle chili powder, smoked paprika.</p><h3>Allergens</h3><p>Contains: cashews (tree nuts). Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 160 calories per 1 oz serving.</li><li>Vegan and gluten-free.</li><li>New this fall.</li></ul>",
+      "price": 11,
+      "sale_price": null,
+      "categories": [
+        "chickpeas-nuts"
+      ],
+      "tags": [
+        "new"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet",
+          "Smoky",
+          "Spicy"
+        ],
+        "heat_level": "Mild",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "6 oz (170 g)",
+        "allergens": "Cashews (tree nuts)",
+        "per_serving": "160 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 60,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "chili-lime-peanuts",
+        "everything-almonds"
+      ],
+      "cross_sells": [
+        {
+          "product": "crunchy-chili-crisp",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Maple Chipotle Cashews: a plain matte deep ink-navy stand-up pouch with an abstract yellow half-circle, on a warm sand seamless backdrop, glossy amber-glazed cashews spilling forward in a neat curve, hard flash with crisp shadows.",
+          "alt": "A navy pouch of maple chipotle cashews on sand",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-NUT-MC"
+    },
+    {
+      "slug": "everything-almonds",
+      "name": "Everything Bagel Almonds",
+      "description_html": "<p>Dry-roasted almonds with the good part of the bagel: sesame, poppy seed, garlic, onion and flaky salt.</p><h3>Flavor</h3><p>Savory, toasty and garlicky with a satisfying snap. No heat, all crunch.</p><h3>Ingredients</h3><p>Almonds, sesame seeds, poppy seeds, dried garlic, dried onion, sea salt, sunflower oil.</p><h3>Allergens</h3><p>Contains: almonds (tree nuts), sesame. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 170 calories and 6 g protein per 1 oz serving.</li><li>Vegan and gluten-free.</li><li>Great on salads, better by the handful.</li></ul>",
+      "price": 10,
+      "sale_price": null,
+      "categories": [
+        "chickpeas-nuts"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Savory"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "6 oz (170 g)",
+        "allergens": "Almonds (tree nuts), sesame",
+        "per_serving": "170 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 55,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "maple-chipotle-cashews"
+      ],
+      "cross_sells": [
+        {
+          "product": "cheddar-cornbread-crackers",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Everything Bagel Almonds: a plain matte sunshine-yellow stand-up pouch with an abstract ink-navy dot, on a blush-pink seamless backdrop, almonds coated in sesame and poppy seeds spilling forward, a few seeds scattered, hard flash.",
+          "alt": "A yellow pouch of everything bagel almonds on blush",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-NUT-EB"
+    },
+    {
+      "slug": "firecracker-kettle-chips",
+      "name": "Firecracker Kettle Chips",
+      "description_html": "<p>Thick-cut kettle chips cooked in small batches, then dusted with habanero, smoked paprika and a little brown sugar so the heat sparks instead of scorches.</p><h3>Flavor</h3><p>Big crunch, smoky sweetness, then a hot habanero finish. Keep a drink nearby.</p><h3>Ingredients</h3><p>Potatoes, sunflower oil, brown sugar, sea salt, smoked paprika, habanero powder, garlic powder, onion powder.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 150 calories per 1 oz serving; 5 servings per bag.</li><li>Vegan and gluten-free.</li><li>The 12-bag case is the office favorite.</li></ul>",
+      "price": 4.5,
+      "sale_price": null,
+      "categories": [
+        "chips-crackers"
+      ],
+      "tags": [
+        "bestseller"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Spicy",
+          "Smoky",
+          "Savory"
+        ],
+        "heat_level": "Hot",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 oz (142 g) per bag",
+        "allergens": "None of the top 9",
+        "per_serving": "150 calories per 1 oz"
+      },
+      "options": [
+        {
+          "name": "Pack size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Single bag (5 oz)",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "12-bag case",
+              "price": 39.5,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 140,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "lime-plantain-chips",
+        "afterburner-hot-sauce"
+      ],
+      "cross_sells": [
+        {
+          "product": "green-light-hot-sauce",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Firecracker Kettle Chips: a plain glossy vermilion chip bag with an abstract yellow starburst shape, standing on a deep ink-navy seamless backdrop, thick red-dusted kettle chips fanned out in front, hard flash with a crisp shadow.",
+          "alt": "A vermilion bag of firecracker kettle chips on navy",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "Thick red-dusted kettle chips tumbling mid-air in a playful spiral against a sunshine-yellow backdrop, a few dried red chilies among them, hard flash freezing the motion.",
+          "alt": "Spicy kettle chips tumbling mid-air on yellow",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CHP-FC"
+    },
+    {
+      "slug": "lime-plantain-chips",
+      "name": "Lime & Sea Salt Plantain Chips",
+      "description_html": "<p>Green plantains sliced long and thin, fried crisp and finished with lime and sea salt. On sale while we clear the shelf for a new crop.</p><h3>Flavor</h3><p>Bright lime, clean salt and a sturdy crunch that stands up to any dip.</p><h3>Ingredients</h3><p>Green plantains, sunflower oil, sea salt, lime juice powder.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 150 calories per 1 oz serving.</li><li>Vegan and gluten-free.</li><li>Built for guacamole.</li></ul>",
+      "price": 5,
+      "sale_price": 3.75,
+      "categories": [
+        "chips-crackers"
+      ],
+      "tags": [
+        "sale"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Tangy",
+          "Savory"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 oz (142 g)",
+        "allergens": "None of the top 9",
+        "per_serving": "150 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 70,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "firecracker-kettle-chips"
+      ],
+      "cross_sells": [
+        {
+          "product": "green-light-hot-sauce",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Lime & Sea Salt Plantain Chips: a plain matte lime-green chip bag with abstract white zigzag stripes, on a blush-pink seamless backdrop, long golden plantain chips fanned out in front with lime wedges, hard flash.",
+          "alt": "A green bag of plantain chips with lime wedges on blush",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CHP-PL"
+    },
+    {
+      "slug": "cheddar-cornbread-crackers",
+      "name": "Cheddar Cornbread Crackers",
+      "description_html": "<p>Crisp little crackers that taste like the corner piece of a skillet cornbread, baked with real sharp cheddar.</p><h3>Flavor</h3><p>Buttery corn, sharp cheese and a whisper of honey. Snackable on their own, unbeatable with chili crisp.</p><h3>Ingredients</h3><p>Wheat flour, stone-ground cornmeal, cheddar cheese (milk, salt, cultures, enzymes), butter, honey, sea salt, baking soda.</p><h3>Allergens</h3><p>Contains: wheat, milk. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 140 calories per 1 oz serving.</li><li>Vegetarian.</li><li>6 oz box.</li></ul>",
+      "price": 6,
+      "sale_price": null,
+      "categories": [
+        "chips-crackers"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Cheesy",
+          "Savory"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Vegetarian",
+          "Peanut-free"
+        ],
+        "net_weight": "6 oz (170 g)",
+        "allergens": "Wheat, milk",
+        "per_serving": "140 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 65,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "white-cheddar-jalapeno-popcorn"
+      ],
+      "cross_sells": [
+        {
+          "product": "crunchy-chili-crisp",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Cheddar Cornbread Crackers: a plain matte sunshine-yellow cracker box with an abstract vermilion circle, standing on a vermilion seamless backdrop, small square golden crackers stacked in playful towers in front, hard flash with crisp shadows.",
+          "alt": "A yellow box of cheddar cornbread crackers with cracker towers on vermilion",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CRK-CC"
+    },
+    {
+      "slug": "spicy-mustard-pretzels",
+      "name": "Spicy Mustard Pretzel Bites",
+      "description_html": "<p>Crunchy sourdough pretzel nuggets cracked open and soaked in a tangy stone-ground mustard seasoning with a horseradish kick.</p><h3>Flavor</h3><p>Sharp mustard, a nose-tingling horseradish hit and a salty, malty crunch.</p><h3>Ingredients</h3><p>Sourdough pretzels (wheat flour, malt, salt, yeast), sunflower oil, mustard flour, vinegar powder, horseradish powder, garlic powder, sea salt.</p><h3>Allergens</h3><p>Contains: wheat. Contains mustard. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 130 calories per 1 oz serving.</li><li>Vegan.</li><li>New this fall.</li></ul>",
+      "price": 5.5,
+      "sale_price": null,
+      "categories": [
+        "chips-crackers"
+      ],
+      "tags": [
+        "new"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Tangy",
+          "Spicy",
+          "Savory"
+        ],
+        "heat_level": "Mild",
+        "dietary": [
+          "Vegan",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "6 oz (170 g)",
+        "allergens": "Wheat, mustard",
+        "per_serving": "130 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 60,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "firecracker-kettle-chips"
+      ],
+      "cross_sells": [
+        {
+          "product": "everything-almonds",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Spicy Mustard Pretzel Bites: a plain matte mustard-yellow stand-up pouch with an abstract ink-navy zigzag, on a deep ink-navy seamless backdrop, cracked golden pretzel nuggets piled in front, hard flash.",
+          "alt": "A mustard-yellow pouch of pretzel bites on navy",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CRK-MP"
+    },
+    {
+      "slug": "sour-kite-tails",
+      "name": "Sour Kite Tails",
+      "description_html": "<p>Long, chewy candy ribbons rolled in sour sugar. Tie one in a knot, eat it in one go, pretend it is a kite tail: we do not judge.</p><h3>Flavor</h3><p>A big sour hit, then a juicy fruit chew. Pick Rainbow mix, Watermelon, Blue raspberry or Green apple.</p><h3>Ingredients</h3><p>Cane sugar, tapioca syrup, wheat-free corn starch, citric acid, malic acid, fruit juice concentrates, natural flavors, plant-based colors, sunflower oil.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 110 calories per 1 oz serving.</li><li>Vegan and gelatin-free, gluten-free.</li><li>Colored with fruit and vegetable extracts.</li></ul>",
+      "price": 5,
+      "sale_price": null,
+      "categories": [
+        "candy-chocolate"
+      ],
+      "tags": [
+        "bestseller"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Sour",
+          "Sweet"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 oz (142 g)",
+        "allergens": "None of the top 9",
+        "per_serving": "110 calories per 1 oz"
+      },
+      "options": [
+        {
+          "name": "Flavor",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Rainbow mix",
+              "price": 0,
+              "color": "#d63513"
+            },
+            {
+              "name": "Watermelon",
+              "price": 0,
+              "color": "#ff6f91"
+            },
+            {
+              "name": "Blue raspberry",
+              "price": 0,
+              "color": "#3a7bd5"
+            },
+            {
+              "name": "Green apple",
+              "price": 0,
+              "color": "#7ac143"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 150,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "chili-mango-chews",
+        "birthday-cake-popcorn"
+      ],
+      "cross_sells": [
+        {
+          "product": "pretzel-crunch-bar",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Sour Kite Tails: long chewy sour candy ribbons in red, yellow, green and blue, coated in sparkling sour sugar, arranged in playful curling loops on a sunshine-yellow seamless backdrop beside a plain matte blush pouch with an abstract kite-diamond shape, hard flash.",
+          "alt": "Rainbow sour candy ribbons curling beside a pink pouch on yellow",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "Rainbow sour candy ribbons floating and twisting mid-air like kite tails against a solid vermilion backdrop, sugar crystals sparkling, hard flash.",
+          "alt": "Sour candy ribbons twisting mid-air on vermilion",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CND-SK"
+    },
+    {
+      "slug": "chili-mango-chews",
+      "name": "Chili Mango Chews",
+      "description_html": "<p>Soft mango chews rolled in chili, lime and salt, inspired by the fruit carts we can never walk past.</p><h3>Flavor</h3><p>Juicy ripe mango, a tangy lime pucker and a mild chili warmth that sneaks up at the end.</p><h3>Ingredients</h3><p>Mango puree, cane sugar, tapioca syrup, pectin, citric acid, chili powder, lime juice powder, sea salt.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 100 calories per 1 oz serving.</li><li>Vegan and gluten-free.</li><li>Individually wrapped in compostable film.</li></ul>",
+      "price": 5.5,
+      "sale_price": null,
+      "categories": [
+        "candy-chocolate"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet",
+          "Spicy",
+          "Tangy"
+        ],
+        "heat_level": "Mild",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 oz (142 g)",
+        "allergens": "None of the top 9",
+        "per_serving": "100 calories per 1 oz"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 85,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "sour-kite-tails"
+      ],
+      "cross_sells": [
+        {
+          "product": "chili-lime-peanuts",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Chili Mango Chews: glossy orange mango chew cubes dusted with red chili powder, arranged in a neat graphic grid on a blush-pink seamless backdrop with a halved fresh mango, hard flash with crisp shadows.",
+          "alt": "Chili-dusted mango chews in a grid with a halved mango on blush",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CND-CM"
+    },
+    {
+      "slug": "pretzel-crunch-bar",
+      "name": "Salty Pretzel Crunch Bar",
+      "description_html": "<p>A thick milk chocolate bar packed with crushed sourdough pretzels and flaky sea salt. Snap it, share it, or do not.</p><h3>Flavor</h3><p>Creamy 38% milk chocolate, salty crunch in every bite and a malty pretzel finish.</p><h3>Ingredients</h3><p>Milk chocolate (sugar, cocoa butter, whole milk powder, cocoa mass, soy lecithin, vanilla), sourdough pretzels (wheat flour, malt, salt, yeast), sea salt.</p><h3>Allergens</h3><p>Contains: milk, wheat, soy. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 220 calories per half bar.</li><li>Vegetarian.</li><li>Ships with an ice pack from May to September.</li></ul>",
+      "price": 4.5,
+      "sale_price": null,
+      "categories": [
+        "candy-chocolate"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet",
+          "Savory"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Vegetarian",
+          "Peanut-free"
+        ],
+        "net_weight": "2.5 oz (70 g) bar",
+        "allergens": "Milk, wheat, soy",
+        "per_serving": "220 calories per half bar"
+      },
+      "options": [
+        {
+          "name": "Pack size",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Single bar",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "6-bar box",
+              "price": 20.5,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 90,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "kettle-corn-chocolate-bar"
+      ],
+      "cross_sells": [
+        {
+          "product": "spicy-mustard-pretzels",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Salty Pretzel Crunch Bar: a thick milk chocolate bar half unwrapped from a plain matte vermilion paper wrapper with an abstract yellow stripe, broken pieces showing pretzel crunch, on a sunshine-yellow seamless backdrop, a few mini pretzels around it, hard flash.",
+          "alt": "A milk chocolate pretzel bar in a vermilion wrapper on yellow",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CHO-PC"
+    },
+    {
+      "slug": "kettle-corn-chocolate-bar",
+      "name": "Kettle Corn Dark Chocolate Bar",
+      "description_html": "<p>70% dark chocolate studded with our own crunchy kettle corn. Proof that popcorn belongs in everything.</p><h3>Flavor</h3><p>Deep cocoa, sweet-salty popcorn crunch and a clean finish. Not too sweet, very hard to put down.</p><h3>Ingredients</h3><p>Dark chocolate (cocoa mass, cane sugar, cocoa butter), kettle corn (popcorn, cane sugar, coconut oil, sea salt).</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>About 200 calories per half bar.</li><li>Vegan, dairy-free and gluten-free.</li><li>New this fall.</li></ul>",
+      "price": 5,
+      "sale_price": null,
+      "categories": [
+        "candy-chocolate"
+      ],
+      "tags": [
+        "new"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet",
+          "Savory"
+        ],
+        "heat_level": "No heat",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "2.5 oz (70 g) bar",
+        "allergens": "None of the top 9",
+        "per_serving": "200 calories per half bar"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 70,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "pretzel-crunch-bar",
+        "birthday-cake-popcorn"
+      ],
+      "cross_sells": [
+        {
+          "product": "kite-mug",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Kettle Corn Dark Chocolate Bar: a dark chocolate bar broken into chunky pieces with popcorn pieces set into it, a plain matte deep ink-navy paper wrapper with an abstract sunshine circle beside it, on a blush-pink seamless backdrop, hard flash with crisp shadows.",
+          "alt": "A broken dark chocolate bar with popcorn pieces on blush",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-CHO-KC"
+    },
+    {
+      "slug": "tailwind-hot-sauce",
+      "name": "Tailwind Hot Sauce",
+      "description_html": "<p>Our house sauce: fermented habanero and roasted carrot with a squeeze of orange. Hot, bright and fruity, never just pain.</p><h3>Flavor</h3><p>Sweet carrot and citrus first, a clean habanero heat right behind. Hot, not scary.</p><h3>Ingredients</h3><p>Habanero peppers, carrots, distilled vinegar, orange juice, garlic, onion, sea salt, cane sugar.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>5 fl oz bottle; about 5 calories per teaspoon.</li><li>Vegan and gluten-free.</li><li>Refrigerate after opening; best within 6 months.</li></ul>",
+      "price": 9,
+      "sale_price": null,
+      "categories": [
+        "hot-sauce-shakers"
+      ],
+      "tags": [
+        "bestseller"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Spicy",
+          "Tangy",
+          "Sweet"
+        ],
+        "heat_level": "Hot",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 fl oz (148 ml)",
+        "allergens": "None of the top 9",
+        "per_serving": "5 calories per teaspoon"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 110,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "green-light-hot-sauce",
+        "afterburner-hot-sauce"
+      ],
+      "cross_sells": [
+        {
+          "product": "firecracker-kettle-chips",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Tailwind Hot Sauce: a slim glass hot sauce bottle filled with vivid orange sauce, a plain vermilion cap and a blank sunshine-yellow wrap with an abstract kite-diamond shape, standing hero-center on a deep ink-navy seamless backdrop, a few orange habanero peppers and carrot coins around it, hard flash with glossy highlights.",
+          "alt": "An orange hot sauce bottle with habaneros on navy",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A thick drop of vivid orange hot sauce splashing onto a pile of crispy popcorn against a sunshine-yellow backdrop, droplets frozen mid-air, hard flash.",
+          "alt": "Orange hot sauce splashing onto popcorn",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-HS-TW"
+    },
+    {
+      "slug": "green-light-hot-sauce",
+      "name": "Green Light Hot Sauce",
+      "description_html": "<p>A mild, bright everyday sauce of roasted jalapeño, tomatillo and cilantro. The one for eggs, tacos and people new to heat.</p><h3>Flavor</h3><p>Herby, tangy and fresh with a gentle green chili warmth.</p><h3>Ingredients</h3><p>Tomatillos, jalapeño peppers, distilled vinegar, cilantro, lime juice, garlic, sea salt.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>5 fl oz bottle; about 0 calories per teaspoon.</li><li>Vegan and gluten-free.</li><li>Refrigerate after opening.</li></ul>",
+      "price": 9,
+      "sale_price": null,
+      "categories": [
+        "hot-sauce-shakers"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Tangy",
+          "Spicy"
+        ],
+        "heat_level": "Mild",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 fl oz (148 ml)",
+        "allergens": "None of the top 9",
+        "per_serving": "0 calories per teaspoon"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 95,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "tailwind-hot-sauce"
+      ],
+      "cross_sells": [
+        {
+          "product": "lime-plantain-chips",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Green Light Hot Sauce: a slim glass hot sauce bottle of bright green sauce with a plain ink-navy cap and a blank blush-pink wrap with an abstract circle, standing on a vermilion seamless backdrop beside halved tomatillos and a jalapeño, hard flash.",
+          "alt": "A green hot sauce bottle with tomatillos on vermilion",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-HS-GL"
+    },
+    {
+      "slug": "afterburner-hot-sauce",
+      "name": "Afterburner Hot Sauce",
+      "description_html": "<p>Our hottest sauce, for people who read the warning and ordered it anyway. Ghost pepper and roasted pineapple, aged for six weeks.</p><h3>Flavor</h3><p>A second of tropical sweetness, then a deep, rolling ghost pepper fire that lasts. Start with one drop.</p><h3>Ingredients</h3><p>Ghost peppers, pineapple, distilled vinegar, red bell pepper, garlic, cane sugar, sea salt.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>5 fl oz bottle; about 5 calories per teaspoon.</li><li>Vegan and gluten-free.</li><li>Extra hot: keep away from eyes and small hands.</li></ul>",
+      "price": 11,
+      "sale_price": null,
+      "categories": [
+        "hot-sauce-shakers"
+      ],
+      "tags": [
+        "new"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Spicy",
+          "Sweet"
+        ],
+        "heat_level": "Extra hot",
+        "dietary": [
+          "Vegan",
+          "Gluten-free",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "5 fl oz (148 ml)",
+        "allergens": "None of the top 9",
+        "per_serving": "5 calories per teaspoon"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 40,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "tailwind-hot-sauce",
+        "crunchy-chili-crisp"
+      ],
+      "cross_sells": [
+        {
+          "product": "firecracker-kettle-chips",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Afterburner Hot Sauce: a slim glass hot sauce bottle of deep red sauce with a plain sunshine-yellow cap and a blank ink-navy wrap with abstract flame-like curves, standing on a vermilion seamless backdrop, wrinkled red ghost peppers and a pineapple wedge beside it, hard flash with glossy highlights.",
+          "alt": "A deep red hot sauce bottle with ghost peppers on vermilion",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-HS-AB"
+    },
+    {
+      "slug": "crunchy-chili-crisp",
+      "name": "Crunchy Chili Crisp",
+      "description_html": "<p>Crispy garlic, shallots and three chilies in toasted sesame oil. Spoon it on noodles, eggs, ice cream (trust us) and every cracker in reach.</p><h3>Flavor</h3><p>Savory, nutty and crunchy with a medium, lingering chili heat and a little numbing Sichuan tingle.</p><h3>Ingredients</h3><p>Sunflower oil, crispy shallots, crispy garlic, chili flakes, toasted sesame oil, soy sauce (water, soybeans, wheat, salt), Sichuan pepper, cane sugar, sea salt.</p><h3>Allergens</h3><p>Contains: soy, wheat, sesame. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>6 oz jar; about 80 calories per teaspoon.</li><li>Vegan.</li><li>No need to refrigerate; stir before you spoon.</li></ul>",
+      "price": 12,
+      "sale_price": null,
+      "categories": [
+        "hot-sauce-shakers"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Savory",
+          "Spicy"
+        ],
+        "heat_level": "Medium",
+        "dietary": [
+          "Vegan",
+          "Dairy-free",
+          "Peanut-free"
+        ],
+        "net_weight": "6 oz (170 g) jar",
+        "allergens": "Soy, wheat, sesame",
+        "per_serving": "80 calories per teaspoon"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 70,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "afterburner-hot-sauce"
+      ],
+      "cross_sells": [
+        {
+          "product": "cheddar-cornbread-crackers",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Crunchy Chili Crisp: a squat glass jar full of glossy red chili oil and crispy golden garlic and shallot bits, a plain sunshine-yellow lid, a spoon lifting a heap of the crunchy chili out, on a blush-pink seamless backdrop, hard flash with glossy highlights.",
+          "alt": "A jar of crunchy chili crisp with a loaded spoon on blush",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-HS-CC"
+    },
+    {
+      "slug": "popcorn-shaker-trio",
+      "name": "Popcorn Shaker Trio",
+      "description_html": "<p>Our three favorite popcorn seasonings in shakers, so you can make movie night as loud as ours: Hot Honey Dust, Dill Pickle and White Cheddar.</p><h3>Flavor</h3><p>Sweet heat, puckery dill and sharp cheese. Shake on popcorn, fries, roasted vegetables or eggs.</p><h3>Ingredients</h3><p>Hot Honey Dust: cane sugar, dried honey, sea salt, cayenne. Dill Pickle: vinegar powder, sea salt, dill, garlic. White Cheddar: cheddar cheese powder (milk), whey (milk), sea salt.</p><h3>Allergens</h3><p>Contains: milk (White Cheddar shaker). Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>Three 2.5 oz shakers.</li><li>Gluten-free and vegetarian.</li><li>One shaker seasons about 20 bowls of popcorn.</li></ul>",
+      "price": 16,
+      "sale_price": null,
+      "categories": [
+        "hot-sauce-shakers",
+        "popcorn"
+      ],
+      "tags": [],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet",
+          "Spicy",
+          "Sour",
+          "Cheesy"
+        ],
+        "heat_level": "Mild",
+        "dietary": [
+          "Gluten-free",
+          "Vegetarian",
+          "Peanut-free"
+        ],
+        "net_weight": "3 × 2.5 oz (71 g) shakers",
+        "allergens": "Milk",
+        "per_serving": "5 calories per ¼ teaspoon"
+      },
+      "options": [],
+      "stock": {
+        "tracking": true,
+        "level": 50,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "hot-honey-popcorn"
+      ],
+      "cross_sells": [
+        {
+          "product": "kite-mug",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Popcorn Shaker Trio: three plain round seasoning shakers in vermilion, pickle green and sunshine yellow with blank labels, lined up on an ink-navy seamless backdrop, a little seasoning dust drifting from the tilted middle shaker onto a few popcorn pieces, hard flash.",
+          "alt": "Three colorful seasoning shakers on navy",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-SHK-TR"
+    },
+    {
+      "slug": "snack-club",
+      "name": "Snack Club Box",
+      "description_html": "<p>Eight full-size Pepperkite snacks at your door every month, including at least one flavor nobody else can buy yet. Pick mild or bring the heat; we pick the rest.</p><h3>What is inside</h3><ul><li>8 full-size snacks: popcorn, chickpeas or nuts, chips, candy or chocolate, and a sauce or shaker most months.</li><li>One members-only test flavor, with a card to vote on whether it joins the shop.</li><li>A sticker. Always a sticker.</li></ul><h3>How it works</h3><ul><li>Boxes pack on the first Tuesday of the month and ship free in the US and Canada.</li><li>Skip, pause or cancel any time before the 1st from your account.</li><li>Every two months is there if you snack at a gentler pace.</li></ul><h3>Allergens</h3><p>Boxes can include peanuts, tree nuts, milk, soy, wheat and sesame. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame. Write to us about allergies before your first box and we will do our best to swap.</p>",
+      "price": 32,
+      "sale_price": null,
+      "categories": [
+        "snack-boxes"
+      ],
+      "tags": [
+        "subscription"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Savory",
+          "Sweet",
+          "Spicy",
+          "Sour"
+        ],
+        "dietary": [
+          "Vegetarian"
+        ],
+        "allergens": "May include peanuts, tree nuts, milk, soy, wheat, sesame",
+        "net_weight": "About 2.5 lb (1.1 kg) per box"
+      },
+      "options": [
+        {
+          "name": "Heat",
+          "variant": false,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Keep it mild",
+              "price": 0,
+              "color": null
+            },
+            {
+              "name": "Bring the heat",
+              "price": 0,
+              "color": null
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": false,
+        "level": null,
+        "status": "in_stock"
+      },
+      "subscription_plans": [
+        {
+          "name": "Every month",
+          "interval": "monthly",
+          "interval_count": 1,
+          "price": 32,
+          "trial_days": 0,
+          "description": "8 full-size snacks · Free shipping · A members-only test flavor · Skip or cancel any time"
+        },
+        {
+          "name": "Every 2 months",
+          "interval": "monthly",
+          "interval_count": 2,
+          "price": 34,
+          "trial_days": 0,
+          "description": "8 full-size snacks · Free shipping · Skip or cancel any time"
+        }
+      ],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "party-box",
+        "heat-seeker-box"
+      ],
+      "cross_sells": [
+        {
+          "product": "big-crunch-tote",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Snack Club Box: an open plain sunshine-yellow mailer box seen from directly above on a vermilion seamless backdrop, packed neatly with colorful blank snack pouches, a chocolate bar in a plain wrapper, a small hot sauce bottle and a round blank sticker, hard flash flat-lay.",
+          "alt": "An open yellow snack box packed with colorful snacks, from above",
+          "size": "1024x1024"
+        },
+        {
+          "prompt": "A tall playful stack of plain closed mailer boxes in sunshine yellow, vermilion and blush on an ink-navy seamless backdrop, one box lid popped open with popcorn spilling out, hard flash.",
+          "alt": "A stack of colorful snack boxes with popcorn spilling from one",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "type": "subscription",
+      "subscription_only": true,
+      "sku": "PK-BOX-CLUB"
+    },
+    {
+      "slug": "party-box",
+      "name": "The Party Box",
+      "description_html": "<p>Everything you need to be the person who brought the good snacks. Nine of our crowd-pleasers in one box, for less than buying them one by one.</p><h3>What is inside</h3><ul><li>2 bags of Hot Honey Popcorn</li><li>1 bag of Dill Pickle Popcorn</li><li>1 bag of Crunchy Chickpeas</li><li>2 bags of Firecracker Kettle Chips</li><li>2 packs of Sour Kite Tails</li><li>1 bottle of Green Light Hot Sauce</li></ul><h3>Flavor</h3><p>A bit of everything: sweet, sour, salty and a couple of spicy surprises.</p><h3>Allergens</h3><p>Contains none of the top 9 allergens. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>Feeds a party of 10 to 12, or a very good weekend.</li><li>Comes in a gift-ready box; add a note at checkout.</li></ul>",
+      "price": 44,
+      "sale_price": null,
+      "categories": [
+        "snack-boxes"
+      ],
+      "tags": [
+        "gift"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Sweet",
+          "Sour",
+          "Savory",
+          "Spicy"
+        ],
+        "heat_level": "Mild",
+        "dietary": [
+          "Gluten-free",
+          "Vegetarian",
+          "Peanut-free"
+        ],
+        "allergens": "None of the top 9",
+        "net_weight": "About 3 lb (1.4 kg)"
+      },
+      "options": [],
+      "stock": {
+        "tracking": false,
+        "level": null,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [
+        {
+          "product": "hot-honey-popcorn",
+          "quantity": 2
+        },
+        {
+          "product": "dill-pickle-popcorn",
+          "quantity": 1
+        },
+        {
+          "product": "crunchy-chickpeas",
+          "quantity": 1
+        },
+        {
+          "product": "firecracker-kettle-chips",
+          "quantity": 2
+        },
+        {
+          "product": "sour-kite-tails",
+          "quantity": 2
+        },
+        {
+          "product": "green-light-hot-sauce",
+          "quantity": 1
+        }
+      ],
+      "up_sells": [
+        "snack-club",
+        "heat-seeker-box"
+      ],
+      "cross_sells": [
+        {
+          "product": "big-crunch-tote",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "The Party Box: an overhead flat-lay on a blush-pink seamless backdrop of a plain open vermilion gift box surrounded by its contents in a neat graphic grid: blank colorful snack pouches, two chip bags, curled rainbow sour candy ribbons and a small green hot sauce bottle, hard flash with crisp shadows.",
+          "alt": "A vermilion party box with snacks arranged around it, from above",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "type": "bundle",
+      "sku": "PK-BOX-PARTY"
+    },
+    {
+      "slug": "heat-seeker-box",
+      "name": "Heat Seeker Box",
+      "description_html": "<p>Six of our spiciest snacks, lined up mild to wild. A gift for the friend who puts hot sauce on everything, or a dare for the one who does not.</p><h3>What is inside</h3><ul><li>White Cheddar Jalapeño Popcorn</li><li>Chili Lime Peanuts</li><li>Chili Mango Chews</li><li>Firecracker Kettle Chips</li><li>Tailwind Hot Sauce</li><li>Afterburner Hot Sauce</li></ul><h3>Flavor</h3><p>A heat ladder from mild to extra hot, with plenty of tang and crunch on the way up.</p><h3>Allergens</h3><p>Contains: milk, peanuts. Made in our Columbus kitchen, which also handles peanuts, tree nuts, milk, soy, wheat and sesame.</p><h3>Good to know</h3><ul><li>Comes with a heat ladder card so you know where to start.</li><li>Not for small kids, or for anyone who says \"spicy\" about black pepper.</li></ul>",
+      "price": 38,
+      "sale_price": null,
+      "categories": [
+        "snack-boxes",
+        "hot-sauce-shakers"
+      ],
+      "tags": [
+        "gift-spicy"
+      ],
+      "attributes": {
+        "flavor_profile": [
+          "Spicy",
+          "Tangy",
+          "Cheesy"
+        ],
+        "heat_level": "Extra hot",
+        "dietary": [
+          "Vegetarian",
+          "Gluten-free"
+        ],
+        "allergens": "Milk, peanuts",
+        "net_weight": "About 2 lb (0.9 kg)"
+      },
+      "options": [],
+      "stock": {
+        "tracking": false,
+        "level": null,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [
+        {
+          "product": "white-cheddar-jalapeno-popcorn",
+          "quantity": 1
+        },
+        {
+          "product": "chili-lime-peanuts",
+          "quantity": 1
+        },
+        {
+          "product": "chili-mango-chews",
+          "quantity": 1
+        },
+        {
+          "product": "firecracker-kettle-chips",
+          "quantity": 1
+        },
+        {
+          "product": "tailwind-hot-sauce",
+          "quantity": 1
+        },
+        {
+          "product": "afterburner-hot-sauce",
+          "quantity": 1
+        }
+      ],
+      "up_sells": [
+        "party-box",
+        "crunchy-chili-crisp"
+      ],
+      "cross_sells": [
+        {
+          "product": "snack-club",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Heat Seeker Box: a plain open ink-navy box seen from above on a vermilion seamless backdrop, holding snack pouches, a chip bag, mango chews and two slim hot sauce bottles (one orange, one deep red), a few fresh red chilies scattered around, hard flash flat-lay.",
+          "alt": "A navy box of spicy snacks and two hot sauces, from above",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "type": "bundle",
+      "sku": "PK-BOX-HEAT"
+    },
+    {
+      "slug": "big-crunch-tote",
+      "name": "Big Crunch Tote",
+      "description_html": "<p>A heavy canvas tote big enough for a full snack haul, a picnic blanket and the kite you swore you would fly this weekend.</p><h3>The details</h3><ul><li>16 oz natural-dye cotton canvas, 16 × 15 × 5 in.</li><li>Long shoulder straps and an inside pocket for keys.</li><li>A big printed kite diamond on both sides.</li></ul><h3>Care</h3><p>Machine wash cold, hang to dry. The color stays loud.</p>",
+      "price": 22,
+      "sale_price": null,
+      "categories": [
+        "merch"
+      ],
+      "tags": [],
+      "attributes": {
+        "material": "Heavy cotton canvas"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Vermilion",
+              "price": 0,
+              "color": "#d63513"
+            },
+            {
+              "name": "Sunshine",
+              "price": 0,
+              "color": "#ffc93c"
+            },
+            {
+              "name": "Ink",
+              "price": 0,
+              "color": "#1d1630"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 45,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "kite-mug"
+      ],
+      "cross_sells": [
+        {
+          "product": "snack-club",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Big Crunch Tote: a sturdy canvas tote bag in vermilion with a big abstract sunshine-yellow diamond shape on it, standing upright and stuffed with colorful blank snack pouches and a rolled kite peeking out, on a sunshine-yellow seamless backdrop, hard flash.",
+          "alt": "A vermilion canvas tote stuffed with snacks on yellow",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-MER-TOTE"
+    },
+    {
+      "slug": "kite-mug",
+      "name": "Kite Mug",
+      "description_html": "<p>A chunky stoneware mug for hot cocoa, coffee or a sneaky bowl of popcorn at your desk.</p><h3>The details</h3><ul><li>14 oz glazed stoneware with a big comfy handle.</li><li>Glossy color outside, cream inside, a little kite diamond on the side.</li></ul><h3>Care</h3><p>Dishwasher safe. Hand washing keeps the glaze glossy longest.</p>",
+      "price": 16,
+      "sale_price": null,
+      "categories": [
+        "merch"
+      ],
+      "tags": [],
+      "attributes": {
+        "material": "Glazed stoneware"
+      },
+      "options": [
+        {
+          "name": "Color",
+          "variant": true,
+          "required": true,
+          "input_type": "select",
+          "values": [
+            {
+              "name": "Sunshine",
+              "price": 0,
+              "color": "#ffc93c"
+            },
+            {
+              "name": "Vermilion",
+              "price": 0,
+              "color": "#d63513"
+            }
+          ]
+        }
+      ],
+      "stock": {
+        "tracking": true,
+        "level": 40,
+        "status": "in_stock"
+      },
+      "subscription_plans": [],
+      "quantity": {
+        "min": 1,
+        "inc": 1
+      },
+      "tiers": [],
+      "bundle_items": [],
+      "up_sells": [
+        "big-crunch-tote"
+      ],
+      "cross_sells": [
+        {
+          "product": "hot-honey-popcorn",
+          "discount_percent": null
+        }
+      ],
+      "images": [
+        {
+          "prompt": "Kite Mug: a chunky glossy stoneware mug in sunshine yellow with a cream interior and a small abstract vermilion diamond shape, overflowing with popcorn, on a vermilion seamless backdrop, a few popcorn pieces bouncing mid-air, hard flash.",
+          "alt": "A yellow mug overflowing with popcorn on vermilion",
+          "size": "1024x1024"
+        }
+      ],
+      "theme_template": null,
+      "sku": "PK-MER-MUG"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "about",
+      "title": "Our story",
+      "template": null,
+      "content_html": "<p>Pepperkite started on a windy Saturday in 2021 at a kite festival in Columbus, Ohio. Two friends, Rosie and Jun, set up a folding table with a few hundred bags of hot honey popcorn and a hand-painted sign. They were sold out by noon. The crowd started calling the stand \"the pepper kite place\", and the name stuck.</p><h3>Seasoned twice, always</h3><p>Every batch gets seasoned while it is still warm, so the flavor bakes on, then again right before it is bagged, so the first handful tastes as loud as the last. It takes longer. It is worth it.</p><h3>Small batches, every Tuesday</h3><p>We cook in one kitchen on the east side of Columbus and pack fresh batches every Tuesday, so nothing sits in a warehouse getting sad. When a flavor sells out, it sells out; the good ones come back.</p><h3>What we care about</h3><ul><li>Real ingredients you can pronounce: honey, cheddar, chilies, lime, sea salt.</li><li>Plain allergen facts on every product, because snacks should be fun for everyone who can eat them.</li><li>Heat you can choose: every product has a heat level, from no heat to Afterburner.</li><li>Packaging that recycles or composts wherever we can make it work.</li></ul><p>Today we are a team of nine, still flying kites on windy Saturdays, still arguing about whether dill pickle beats hot honey. (It does not. Or it does. Try both.)</p>"
+    },
+    {
+      "slug": "contact",
+      "title": "Say hello",
+      "template": null,
+      "content_html": "<p>Questions about an order, an allergy, a Snack Club box or a big party order? We answer every message within one business day.</p><h3>Email</h3><p><a href=\"mailto:hello@pepperkite.example\">hello@pepperkite.example</a></p><h3>Phone</h3><p><a href=\"tel:+16145550137\">(614) 555-0137</a>, Monday to Friday, 9am to 5pm Eastern.</p><h3>Kitchen</h3><p>450 Marigold Avenue, Unit 3<br>Columbus, OH 43206</p><p>We do not have a shop counter yet, so please do not knock on the kitchen door for popcorn (we will be tempted to say yes).</p><h3>Wholesale and events</h3><p>Stocking Pepperkite in your shop or need snacks for 200? Email us with \"Wholesale\" or \"Event\" in the subject line.</p>"
+    },
+    {
+      "slug": "shipping-returns",
+      "title": "Shipping & returns",
+      "template": null,
+      "content_html": "<h3>Shipping</h3><ul><li>We pack orders Monday to Thursday in Columbus, Ohio; most leave within 2 business days.</li><li>Standard shipping to the US and Canada is a flat $6, free on orders over $45.</li><li>US orders usually arrive in 3–5 business days; Canadian orders in 5–10. Canadian orders may owe import duties or taxes on delivery.</li><li>From May to September, chocolate ships with an ice pack at no extra charge.</li><li>Snack Club boxes pack on the first Tuesday of each month and always ship free.</li></ul><h3>Returns</h3><ul><li>Not your flavor? Tell us within 30 days of delivery and we will send a different one or refund it, even if the bag is open.</li><li>Crushed, stale or melted on arrival? Send a photo and we will replace it free.</li><li>Merch can be returned unused within 30 days for a full refund.</li><li>Snack Club boxes that have shipped cannot be returned; skip, pause or cancel any time before the 1st.</li></ul><p>Start a return or a swap by writing to <a href=\"mailto:hello@pepperkite.example\">hello@pepperkite.example</a> with your order number.</p>"
+    },
+    {
+      "slug": "faq",
+      "title": "FAQ",
+      "template": null,
+      "content_html": "<h3>How spicy is \"Hot\"?</h3><p>Every product has a heat level: No heat, Mild, Medium, Hot and Extra hot. Mild is a warm glow, Hot is a proper kick, and Extra hot (Afterburner) is for people who already know they love it. New to heat? Start with Green Light Hot Sauce or Hot Honey Popcorn.</p><h3>Is your kitchen allergen-free?</h3><p>No. Our Columbus kitchen handles peanuts, tree nuts, milk, soy, wheat and sesame. Each product lists exactly what it contains, and we clean thoroughly between batches, but we cannot promise there is no cross-contact.</p><h3>Which snacks are vegan or gluten-free?</h3><p>Most of them. Use the Dietary filter on any category page to show only vegan, gluten-free, dairy-free or peanut-free snacks.</p><h3>How does the Snack Club work?</h3><p>You get a box of eight full-size snacks every month (or every two months), including one members-only test flavor. It ships free, and you can skip, pause or cancel from your account any time before the 1st.</p><h3>How long do snacks stay fresh?</h3><p>Popcorn and chips are best within 3 months, nuts and chickpeas within 6, candy and chocolate within 9. Each bag shows a best-by date.</p><h3>Do you ship outside the US and Canada?</h3><p>Not yet. We are working on it, one very carefully packed box at a time.</p>"
+    }
+  ],
+  "blog": {
+    "slug": "journal",
+    "title": "Journal",
+    "posts": [
+      {
+        "slug": "why-we-season-twice",
+        "title": "Why we season everything twice",
+        "date": "2026-09-24",
+        "tags": [
+          "Behind the scenes"
+        ],
+        "content_html": "<p>Ask anyone who has worked a Tuesday shift in our kitchen what the job is, and they will say: \"Season it. Then season it again.\" Here is why.</p><h3>Round one: while it is warm</h3><p>Popcorn, chickpeas and chips come out of the kettle or oven still hot, and that is when seasoning sticks best. The oil is warm, the surface is a little tacky, and the flavor bakes right on. This is where the base flavor lives: the salt, the sweet, the tang.</p><h3>Round two: right before the bag</h3><p>Once everything has cooled, we toss it again with a lighter, brighter dusting: fresh dill, lime, a little more cayenne. Cool snacks hold these delicate flavors without cooking them flat, so the first handful tastes as loud as the last.</p><h3>Why not just use more seasoning once?</h3><p>We tried. Pile it all on at once and half of it ends up at the bottom of the bag as dust. Two lighter coats cling better, taste brighter and leave your fingers only moderately orange.</p><p>It takes longer, and it is the whole point. Taste it for yourself with a bag of <a href=\"/products/hot-honey-popcorn\">Hot Honey Popcorn</a>.</p>",
+        "image": {
+          "prompt": "A big stainless steel mixing bowl seen from above on a sunshine-yellow backdrop, fluffy popcorn being tossed up out of it mid-air with a cloud of orange-red seasoning dust, a few kernels flying out of the frame, hard flash freezing the motion. No people.",
+          "alt": "Popcorn tossed mid-air from a mixing bowl in a cloud of seasoning",
+          "size": "1536x1024"
+        }
+      },
+      {
+        "slug": "game-night-snack-board",
+        "title": "Build a game-night snack board in five minutes",
+        "date": "2026-10-15",
+        "tags": [
+          "Snack ideas"
+        ],
+        "content_html": "<p>A snack board is just a big plate with a plan. Here is ours, ready before anyone finds the dice.</p><h3>1. Start with a crunchy anchor</h3><p>Pour a big pile of <a href=\"/products/hot-honey-popcorn\">Hot Honey Popcorn</a> in one corner. It is the crowd-pleaser, so put it where everyone can reach.</p><h3>2. Add something salty and sharp</h3><p>Fan out <a href=\"/products/firecracker-kettle-chips\">Firecracker Kettle Chips</a> and a stack of Cheddar Cornbread Crackers next to a small bowl of Crunchy Chili Crisp for dipping.</p><h3>3. Fill the gaps with little things</h3><p>Chili Lime Peanuts and Crunchy Chickpeas go in the corners and every empty space. They make the board look full and disappear first.</p><h3>4. Something sweet to finish</h3><p>Knot a few Sour Kite Tails and snap a Salty Pretzel Crunch Bar into squares. Lay them across the middle for color.</p><h3>5. A sauce for the brave</h3><p>Set out Green Light for everyone and a tiny dish of Afterburner with a warning flag. Someone will try it. Someone always does.</p><p>Short on time? <a href=\"/products/party-box\">The Party Box</a> has nearly all of it in one go.</p>",
+        "image": {
+          "prompt": "Overhead view of a big round vermilion tray on a blush-pink backdrop arranged as a graphic snack board: a pile of glossy popcorn, fanned kettle chips, small square crackers, a little bowl of red chili crisp, chili peanuts, knotted rainbow sour candy ribbons and squares of chocolate, a few game dice and colorful game tokens without markings beside it, hard flash flat-lay.",
+          "alt": "A vermilion tray arranged as a colorful snack board with game dice",
+          "size": "1536x1024"
+        }
+      },
+      {
+        "slug": "heat-ladder",
+        "title": "The heat ladder: from Green Light to Afterburner",
+        "date": "2026-11-05",
+        "tags": [
+          "Heat guide"
+        ],
+        "content_html": "<p>Every Pepperkite snack has a heat level, so you can climb as high as you like and stop whenever you want. Here is the ladder, rung by rung.</p><h3>No heat</h3><p>All flavor, zero burn: Dill Pickle Popcorn, Everything Bagel Almonds, Lime & Sea Salt Plantain Chips and every chocolate bar.</p><h3>Mild</h3><p>A warm glow that fades fast. Start with <a href=\"/products/hot-honey-popcorn\">Hot Honey Popcorn</a> or Green Light Hot Sauce, which is mostly tangy tomatillo and herbs.</p><h3>Medium</h3><p>You will notice it, and you will want more. Chili Lime Peanuts, White Cheddar Jalapeño Popcorn and our Crunchy Chili Crisp live here.</p><h3>Hot</h3><p>A proper kick that sticks around for a minute. <a href=\"/products/tailwind-hot-sauce\">Tailwind Hot Sauce</a> and Firecracker Kettle Chips: fruity and smoky first, then the habanero shows up.</p><h3>Extra hot</h3><p>Afterburner, our ghost pepper and pineapple sauce. One drop, then wait. Keep a glass of milk or a spoon of yogurt nearby; water just moves the fire around.</p><p>Want the whole climb in one go? The <a href=\"/products/heat-seeker-box\">Heat Seeker Box</a> lines up six of them, mild to wild.</p>",
+        "image": {
+          "prompt": "Five slim glass hot sauce bottles and small dishes lined up left to right from mild to extra hot on a two-tone backdrop (sunshine yellow below, vermilion above, meeting in a clean straight line), sauces going from bright green to orange to deep red, plain caps and blank wraps, a few fresh chilies of growing size in front of each, hard flash with glossy highlights.",
+          "alt": "Hot sauce bottles lined up from green to deep red on yellow and vermilion",
+          "size": "1536x1024"
+        }
+      }
+    ]
+  },
+  "menus": {
+    "main_menu": [
+      {
+        "name": "Shop",
+        "type": "url",
+        "value": "/products",
+        "items": [
+          {
+            "name": "Popcorn",
+            "type": "category",
+            "value": "popcorn",
+            "items": []
+          },
+          {
+            "name": "Chickpeas & nuts",
+            "type": "category",
+            "value": "chickpeas-nuts",
+            "items": []
+          },
+          {
+            "name": "Chips & crackers",
+            "type": "category",
+            "value": "chips-crackers",
+            "items": []
+          },
+          {
+            "name": "Sweets",
+            "type": "category",
+            "value": "candy-chocolate",
+            "items": []
+          },
+          {
+            "name": "Heat",
+            "type": "category",
+            "value": "hot-sauce-shakers",
+            "items": []
+          },
+          {
+            "name": "Merch",
+            "type": "category",
+            "value": "merch",
+            "items": []
+          },
+          {
+            "name": "All snacks",
+            "type": "url",
+            "value": "/products",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Shop by taste",
+        "type": "url",
+        "value": "/products",
+        "items": [
+          {
+            "name": "Spicy",
+            "type": "url",
+            "value": "/products?filter_flavor_profile=Spicy",
+            "items": []
+          },
+          {
+            "name": "Sweet",
+            "type": "url",
+            "value": "/products?filter_flavor_profile=Sweet",
+            "items": []
+          },
+          {
+            "name": "Sour & tangy",
+            "type": "url",
+            "value": "/products?filter_flavor_profile=Sour",
+            "items": []
+          },
+          {
+            "name": "Vegan",
+            "type": "url",
+            "value": "/products?filter_dietary=Vegan",
+            "items": []
+          },
+          {
+            "name": "Gluten-free",
+            "type": "url",
+            "value": "/products?filter_dietary=Gluten-free",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Snack boxes",
+        "type": "category",
+        "value": "snack-boxes",
+        "items": [
+          {
+            "name": "Snack Club",
+            "type": "product",
+            "value": "snack-club",
+            "items": []
+          },
+          {
+            "name": "The Party Box",
+            "type": "product",
+            "value": "party-box",
+            "items": []
+          },
+          {
+            "name": "Heat Seeker Box",
+            "type": "product",
+            "value": "heat-seeker-box",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Journal",
+        "type": "blog",
+        "value": "journal",
+        "items": []
+      },
+      {
+        "name": "Our story",
+        "type": "page",
+        "value": "about",
+        "items": []
+      }
+    ],
+    "footer_menu": [
+      {
+        "name": "Shop",
+        "type": "heading",
+        "items": [
+          {
+            "name": "All snacks",
+            "type": "url",
+            "value": "/products",
+            "items": []
+          },
+          {
+            "name": "Snack Club",
+            "type": "product",
+            "value": "snack-club",
+            "items": []
+          },
+          {
+            "name": "Snack boxes",
+            "type": "category",
+            "value": "snack-boxes",
+            "items": []
+          },
+          {
+            "name": "Merch",
+            "type": "category",
+            "value": "merch",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Pepperkite",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Our story",
+            "type": "page",
+            "value": "about",
+            "items": []
+          },
+          {
+            "name": "Journal",
+            "type": "blog",
+            "value": "journal",
+            "items": []
+          },
+          {
+            "name": "Contact",
+            "type": "page",
+            "value": "contact",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "Help",
+        "type": "heading",
+        "items": [
+          {
+            "name": "Shipping & returns",
+            "type": "page",
+            "value": "shipping-returns",
+            "items": []
+          },
+          {
+            "name": "FAQ",
+            "type": "page",
+            "value": "faq",
+            "items": []
+          },
+          {
+            "name": "Refund policy",
+            "type": "url",
+            "value": "/policies/refund",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "home_images": [
+    {
+      "key": "hero",
+      "size": "1024x1536",
+      "use": "templates/home.json section \"hero\" (color_hero) image: the photo block beside the words, portrait on wide screens and cropped 5:4 on phones, so the action is centered.",
+      "prompt": "A joyful explosion of snacks floating mid-air against a sunshine-yellow seamless backdrop: fluffy and honey-glazed popcorn, golden crunchy chickpeas, thick kettle chips, curling rainbow sour candy ribbons and a few chili-dusted peanuts, with a plain matte vermilion snack pouch tumbling in the center, its top open and popcorn streaming out, hard flash freezing everything, crisp shadows. Composition centered, the pouch in the middle third.",
+      "alt": "Popcorn, chips, chickpeas and candy flying out of a vermilion pouch on yellow"
+    },
+    {
+      "key": "story",
+      "size": "1536x1024",
+      "use": "templates/home.json section \"story\" (color_split) image: the photo half beside the story words, cropped 4:3 on phones.",
+      "prompt": "A bright diamond-shaped kite in vermilion and sunshine-yellow panels lying flat on a blush-pink seamless backdrop, its long tail ribbon curling across the frame, beside a striped paper cone overflowing with glossy honey-glazed popcorn, a few popcorn pieces scattered along the tail, overhead flat-lay, hard flash, crisp shadows. No people. Subject centered.",
+      "alt": "A vermilion and yellow kite beside a paper cone of hot honey popcorn"
+    }
+  ],
+  "section_content": [
+    {
+      "groups": [
+        "header"
+      ],
+      "sections": {
+        "announcement": {
+          "text": "Free shipping on orders over $45 to the US and Canada",
+          "link_label": "Join the Snack Club",
+          "link_href": "/products/snack-club"
+        }
+      }
+    },
+    {
+      "groups": [
+        "footer"
+      ],
+      "sections": {
+        "footer": {
+          "tagline": "Big crunch, bright flavor, a little kick. Seasoned twice in Columbus, Ohio.",
+          "note": "Fresh batches packed every Tuesday"
+        }
+      }
+    },
+    {
+      "templates": [
+        "home"
+      ],
+      "sections": {
+        "hero": {
+          "eyebrow": "Fresh batch every Tuesday",
+          "title": "Big kick, every bag.",
+          "text": "Seasoned popcorn, crunchy chickpeas, sour candy and hot sauce, made loud in small batches in Columbus, Ohio.",
+          "cta_label": "Shop snacks",
+          "cta_href": "/products",
+          "secondary_label": "Join the Snack Club",
+          "secondary_href": "/products/snack-club",
+          "image": {
+            "$image": "hero"
+          }
+        },
+        "categories": {
+          "heading": "Pick your crunch",
+          "link_label": "All categories",
+          "link_href": "/categories",
+          "collections": {
+            "from": "collections",
+            "collections": [
+              "popcorn",
+              "chickpeas-nuts",
+              "candy-chocolate",
+              "hot-sauce-shakers"
+            ]
+          }
+        },
+        "best-sellers": {
+          "heading": "Fan favorites",
+          "link_label": "Shop all snacks",
+          "link_href": "/products",
+          "products": {
+            "from": "products",
+            "products": [
+              "hot-honey-popcorn",
+              "sour-kite-tails",
+              "crunchy-chickpeas",
+              "tailwind-hot-sauce",
+              "firecracker-kettle-chips",
+              "birthday-cake-popcorn",
+              "dill-pickle-popcorn",
+              "smoky-maple-popcorn"
+            ]
+          }
+        },
+        "statement": {
+          "eyebrow": "The Pepperkite promise",
+          "line_one": "Loud snacks,",
+          "line_two": "zero apologies.",
+          "sticker": "Seasoned twice",
+          "link_label": "Find your flavor",
+          "link_href": "/products"
+        },
+        "new-arrivals": {
+          "heading": "Fresh out of the kitchen",
+          "link_label": "See what's new",
+          "link_href": "/products?sort=newest",
+          "products": {
+            "from": "products",
+            "products": [
+              "maple-chipotle-cashews",
+              "afterburner-hot-sauce",
+              "kettle-corn-chocolate-bar",
+              "spicy-mustard-pretzels",
+              "crunchy-chili-crisp",
+              "heat-seeker-box",
+              "lime-plantain-chips",
+              "kite-mug"
+            ]
+          }
+        },
+        "story": {
+          "eyebrow": "Our story",
+          "heading": "Born at a kite festival",
+          "text": "In 2021 two friends sold hot honey popcorn from a folding table on a windy Saturday and were sold out by noon. The crowd called it \"the pepper kite place\", and we never looked back.",
+          "link_label": "Read our story",
+          "link_href": "/pages/about",
+          "image": {
+            "$image": "story"
+          }
+        },
+        "features": {
+          "heading": "Why it tastes louder",
+          "items": [
+            {
+              "title": "Seasoned twice",
+              "text": "Once while it is warm, once right before it is bagged, so the first handful tastes like the last."
+            },
+            {
+              "title": "Packed every Tuesday",
+              "text": "Small batches from our Columbus kitchen, shipped fresh instead of sitting in a warehouse."
+            },
+            {
+              "title": "Free shipping over $45",
+              "text": "A flat $6 below that, anywhere in the US and Canada."
+            },
+            {
+              "title": "Snack Club perks",
+              "text": "Eight snacks a month, a members-only test flavor and free shipping. Skip any time.",
+              "link_label": "Join the club",
+              "link_href": "/products/snack-club"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "templates": [
+        "product"
+      ],
+      "sections": {
+        "stage": {
+          "points": [
+            {
+              "icon": "clock",
+              "text": "Packed fresh every Tuesday"
+            },
+            {
+              "icon": "truck",
+              "text": "Free shipping over $45"
+            },
+            {
+              "icon": "return",
+              "text": "Not your flavor? We'll swap it"
+            }
+          ],
+          "details": [
+            {
+              "title": "Allergens in our kitchen",
+              "body": "Everything is made in one Columbus kitchen that also handles peanuts, tree nuts, milk, soy, wheat and sesame. Each product lists exactly what it contains."
+            },
+            {
+              "title": "Shipping",
+              "body": "Flat $6 to the US and Canada, free over $45. Most orders leave within 2 business days; chocolate ships with an ice pack from May to September."
+            }
+          ]
+        },
+        "related": {
+          "heading": "Snacks that go with it"
+        }
+      }
+    },
+    {
+      "templates": [
+        "cart"
+      ],
+      "sections": {
+        "popular": {
+          "heading": "Room for one more?",
+          "link_label": "Shop all snacks"
+        }
+      }
+    }
+  ],
+  "theme_settings_notes": "Brand: no logo, so the header shows the store name in the heading face. No social links (fictional brand). Every section setting is in section_content."
+}

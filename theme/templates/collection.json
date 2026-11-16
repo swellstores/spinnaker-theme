@@ -1,0 +1,52 @@
+{
+  "title": "Collection",
+  "sections": [
+    {
+      "id": "masthead",
+      "type": "collection_masthead",
+      "props": {
+        "collection": "current",
+        "tone": "accent",
+        "show_photo": "show",
+        "show_children": "show"
+      }
+    },
+    {
+      "id": "products",
+      "type": "product_band",
+      "props": {
+        "heading": "",
+        "link_label": "",
+        "products": {
+          "from": "collection",
+          "collection": "current",
+          "limit": 24
+        },
+        "display": "grid",
+        "per_row": "4",
+        "heading_size": "large",
+        "tone": "page",
+        "numbers": "no",
+        "show_count": "show",
+        "show_sort": "show",
+        "show_filters": "show"
+      }
+    },
+    {
+      "id": "more-categories",
+      "type": "category_tiles",
+      "props": {
+        "heading": "Keep exploring",
+        "link_label": "See them all",
+        "link_href": "/categories",
+        "collections": {
+          "from": "top",
+          "limit": 4
+        },
+        "colors": "mixed",
+        "photo": "circle",
+        "shape": "wide"
+      }
+    }
+  ]
+}

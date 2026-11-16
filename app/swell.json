@@ -1,0 +1,35 @@
+{
+  "id": "spinnaker",
+  "name": "Spinnaker",
+  "type": "theme",
+  "version": "0.1.0",
+  "description": "A bold theme of big type and bright blocks of color, for any store",
+  "repository_url": "https://github.com/swellstores/spinnaker-theme",
+  "preview_src": "assets/preview.png",
+  "preview_mobile_src": "assets/preview-mobile.png",
+  "theme": {
+    "storefront": {
+      "app": "wave"
+    },
+    "listing": {
+      "industries": [],
+      "styles": [
+        "bold",
+        "playful"
+      ],
+      "features": [
+        "filters",
+        "quick_add",
+        "subscriptions",
+        "swatches"
+      ],
+      "catalog_sizes": [
+        "few",
+        "some"
+      ],
+      "best_for": "Any store that wants a bright, confident look with big type and color",
+      "demo_url": "https://pepperkite-demo--geyqd9gt.swell.store/__demo"
+    },
+    "apps": []
+  }
+}

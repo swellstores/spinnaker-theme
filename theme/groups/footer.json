@@ -1,0 +1,19 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": [
+    {
+      "id": "footer",
+      "type": "footer",
+      "props": {
+        "menu": "footer_menu",
+        "layout": "columns",
+        "newsletter": "show",
+        "show_payments": "show",
+        "background_colour": "#1d1630",
+        "text_colour": "#fffefb",
+        "accent_colour": "#ffc93c"
+      }
+    }
+  ]
+}
