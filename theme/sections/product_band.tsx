@@ -1,14 +1,14 @@
 import { useId } from 'react';
 import type { ProductData, ProductList, SiteInfo, Translate } from 'ui-kit';
-import { ActiveFilters, FilterForm, Icon, Image, Pagination, Price, pricesHiddenFor, QuickAdd, safeUrl, SortSelect, SwatchDot } from 'ui-kit';
+import { ActiveFilters, CardRating, FilterForm, Icon, Image, Pagination, Price, pricesHiddenFor, QuickAdd, safeUrl, SortSelect, SwatchDot } from 'ui-kit';
 
 // Store products on a band of color under a heading set very large. Each product is a card with a thick outline and a
 // solid offset shadow: its photo (the second one on hover, when the theme settings say so), a "Save 20%" or "Sold out"
-// sticker from Swell's own prices and stock, its name, and its price on a pill. On a category, search or all-products
-// page's own list it also has the list's count, sort, filters (folded, the chosen ones as removal links under the fold,
-// so a filtered page opens at its products) and page links, and the category's empty text. As a rail, the cards scroll
-// sideways in one row. The theme settings (site.theme_settings) choose quick add, color dots and the second photo for
-// every card at once.
+// sticker from Swell's own prices and stock, its name, its rating (only from a reviews app), and its price on a pill.
+// On a category, search or all-products page's own list it also has the list's count, sort, filters (folded, the chosen
+// ones as removal links under the fold, so a filtered page opens at its products) and page links, and the category's
+// empty text. As a rail, the cards scroll sideways in one row. The theme settings (site.theme_settings) choose quick
+// add, color dots and the second photo for every card at once.
 export const schema = {
   label: 'Product band',
   fields: [
@@ -98,6 +98,10 @@ export const styles = `
 & .pb-price .uk-price { flex-wrap: nowrap; gap: 6px; white-space: nowrap; }
 & .pb-price .uk-price-was, & .pb-price .uk-price-now { color: inherit; }
 & .pb-price .uk-price-was { opacity: .78; }
+& .uk-card-rating { display: flex; align-items: center; gap: 6px; margin: 0; font-size: var(--uk-text-xs); font-weight: 700; color: var(--uk-color-heading); line-height: inherit; }
+& .uk-card-rating .uk-stars { gap: 2px; color: inherit; }
+& .uk-card-rating .uk-stars > svg { stroke: none; }
+& .uk-card-rating .uk-stars > svg[fill="none"] { display: none; }
 & .pb-dots { display: flex; gap: 6px; margin: 0; padding: 0; list-style: none; }
 & .pb-card .uk-sell-add { padding: 0 4px; }
 & .pb-card .uk-prices-hidden { font-size: var(--uk-text-sm); }
@@ -169,6 +173,7 @@ export default function ProductBand(p: Props) {
             </div>
             <div className="pb-meta">
               {p.heading ? <h3 className="pb-name">{x.name}</h3> : <h2 className="pb-name">{x.name}</h2>}
+              <CardRating rating={x.rating} label={(average, count) => t('product.rated', { average, count })} />
               {hidden ? <span className="uk-prices-hidden">{hidden.label}</span> : x.price ? <p className="pb-price"><Price price={x.price} compare={x.compare_at} labels={{ was: t('product.was'), now: t('product.now') }} /></p> : null}
               {swatches.length ? <ul className="pb-dots" aria-label={swatches.map((c) => c.name).join(', ')}>{swatches.map((c) => <li key={c.id}><SwatchDot swatch={c.swatch} /></li>)}</ul> : null}
             </div>

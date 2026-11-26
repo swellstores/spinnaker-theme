@@ -26,7 +26,7 @@ Spinnaker is the bold one of Swell's free themes; it changes the look, not the s
 - `color_split`: a photo beside a block of words and a button
 - `feature_blocks`: up to four points on colored blocks with big numbers
 - `collection_masthead`: a category's name huge on a band of color
-- `product_stage`: the product page: photos on a color tile, the buy box on its own block
+- `product_stage`: the product page: photos on a color tile, the buy box on its own block, a column of blocks you order, hide and add to
 
 Its own templates are home, product, collection and cart; its own Footer group sits on deep ink. Its theme settings (`theme/config/settings_content.json`) cover: a sticky header; cards' quick add, second photo on hover and number of color dots; the quantity box. Its colors, fonts and style choices are in `theme/config/settings.json`.
 

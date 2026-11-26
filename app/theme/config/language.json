@@ -87,6 +87,7 @@
       "trial": "Trial choice on a product",
       "bundle": "Heading above a bundle’s items",
       "rating": "Star rating on a product ({average} and {count} are filled in)",
+      "rated": "A product card's star rating, for screen readers ({average} and {count} are filled in)",
       "photo": "A product photo's thumbnail (screen readers; {number} is filled in)",
       "sale": "Sale badge on a product card's photo",
       "save": "Subscribe choice’s badge: the best plan’s savings ({percent} is filled in)",
@@ -103,7 +104,12 @@
       "pin": "A product pin on a photo, for screen readers ({name} is filled in)",
       "sign_in_prices": "Shown instead of prices and add to cart when the store shows prices to signed-in customers only",
       "prices_pending": "Shown instead of prices to a signed-in customer the store hasn't approved yet (links to the theme's apply page when it has one)",
-      "related": "Heading of a product grid on a product page that has a link but no heading of its own"
+      "related": "Heading of a product grid on a product page that has a link but no heading of its own",
+      "in_stock": "The Stock block on a product page when the chosen variant is in stock",
+      "shipping_returns": "Title of a new \"Shipping & returns\" row (Add block on the product page); the row is yours to edit once added",
+      "policies_intro": "Above the links to your refund policy and terms in a row with Store policies shown",
+      "size_guide": "Title of a new \"Size guide\" row (Add block on the product page)",
+      "size_guide_table": "Starting text of a new \"Size guide\" row: lines with | between cells make a table; you fill in the measurements"
     },
     "add_to_cart": "Add to cart",
     "sold_out": "Sold out",
@@ -117,7 +123,14 @@
     "subscribe": "Subscribe",
     "trial": "Try before you buy",
     "bundle": "In this bundle",
-    "rating": "{average} out of 5 stars, {count} reviews",
+    "rating": {
+      "one": "{average} out of 5 stars, {count} review",
+      "other": "{average} out of 5 stars, {count} reviews"
+    },
+    "rated": {
+      "one": "Rated {average} out of 5, {count} review",
+      "other": "Rated {average} out of 5, {count} reviews"
+    },
     "photo": "Photo {number}",
     "sale": "Sale",
     "save": "Save {percent}%",
@@ -137,7 +150,12 @@
     "pin": "See {name}",
     "sign_in_prices": "Sign in to see prices",
     "prices_pending": "Prices show once your account is approved",
-    "related": "You may also like"
+    "related": "You may also like",
+    "in_stock": "In stock",
+    "shipping_returns": "Shipping & returns",
+    "policies_intro": "For shipping and returns, see:",
+    "size_guide": "Size guide",
+    "size_guide_table": "Size | Chest | Waist\nS | |\nM | |\nL | |"
   },
   "collection": {
     "$label": "Product lists",
@@ -370,7 +388,8 @@
       "reset_failed": "Error when a reset link no longer works",
       "reset_sent": "Message after asking for a reset link",
       "reset_done": "Message after a new password is saved",
-      "check_form": "Error when a sign-in form isn’t accepted"
+      "check_form": "Error when a sign-in form isn’t accepted",
+      "sign_in_to_see": "Message on the sign-in page when a page needs an account ({label} is filled in with that page’s name)"
     },
     "sign_in": "Sign in",
     "create_title": "Create an account",
@@ -392,7 +411,8 @@
     "reset_failed": "That reset link doesn't work any more. Ask for a new one.",
     "reset_sent": "If an account uses that email, a reset link is on its way.",
     "reset_done": "Your password was changed. Sign in with it.",
-    "check_form": "Check the form and try again."
+    "check_form": "Check the form and try again.",
+    "sign_in_to_see": "Sign in to see {label}."
   },
   "common": {
     "$label": "Common words",

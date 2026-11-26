@@ -2553,35 +2553,90 @@
         "product"
       ],
       "sections": {
-        "stage": {
-          "points": [
-            {
-              "icon": "clock",
-              "text": "Packed fresh every Tuesday"
-            },
-            {
-              "icon": "truck",
-              "text": "Free shipping over $45"
-            },
-            {
-              "icon": "return",
-              "text": "Not your flavor? We'll swap it"
-            }
-          ],
-          "details": [
-            {
-              "title": "Allergens in our kitchen",
-              "body": "Everything is made in one Columbus kitchen that also handles peanuts, tree nuts, milk, soy, wheat and sesame. Each product lists exactly what it contains."
-            },
-            {
-              "title": "Shipping",
-              "body": "Flat $6 to the US and Canada, free over $45. Most orders leave within 2 business days; chocolate ships with an ice pack from May to September."
-            }
-          ]
-        },
         "related": {
           "heading": "Snacks that go with it"
         }
+      },
+      "blocks": {
+        "stage": [
+          {
+            "type": "product_breadcrumbs"
+          },
+          {
+            "type": "product_title"
+          },
+          {
+            "type": "product_rating"
+          },
+          {
+            "type": "product_price"
+          },
+          {
+            "type": "variant_picker"
+          },
+          {
+            "type": "purchase_options"
+          },
+          {
+            "type": "product_quantity"
+          },
+          {
+            "type": "add_to_cart"
+          },
+          {
+            "type": "pairs_with",
+            "props": {
+              "products": {
+                "from": "up_sells",
+                "limit": 3
+              }
+            }
+          },
+          {
+            "type": "product_description"
+          },
+          {
+            "type": "bundle_items"
+          },
+          {
+            "type": "product_specs"
+          },
+          {
+            "type": "promises",
+            "props": {
+              "points": [
+                {
+                  "icon": "clock",
+                  "text": "Packed fresh every Tuesday"
+                },
+                {
+                  "icon": "truck",
+                  "text": "Free shipping over $45"
+                },
+                {
+                  "icon": "return",
+                  "text": "Not your flavor? We'll swap it"
+                }
+              ]
+            }
+          },
+          {
+            "type": "collapsible_row",
+            "props": {
+              "title": "Allergens in our kitchen",
+              "text": "Everything is made in one Columbus kitchen that also handles peanuts, tree nuts, milk, soy, wheat and sesame. Each product lists exactly what it contains.",
+              "open": "open"
+            }
+          },
+          {
+            "type": "collapsible_row",
+            "props": {
+              "title": "Shipping",
+              "text": "Flat $6 to the US and Canada, free over $45. Most orders leave within 2 business days; chocolate ships with an ice pack from May to September.",
+              "open": "closed"
+            }
+          }
+        ]
       }
     },
     {
